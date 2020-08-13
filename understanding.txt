@@ -1,0 +1,9 @@
+1.If you create inside the newproj i.e is in Flask app if you initialize the template folder name as "Template" it shows an error.
+instead YOU SHOULD RENAME it as "templates";
+
+2.The jinja syntax EXPECTS "endblock" to close the block remember to write endblock as ----> {% endblock %}  
+
+3.In flask app if we need to include css file we cannot link it like <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+we cant include as normal syntax as <link rel="stylesheet" href="static/css/main.css">
+
+4. In sql alchemy in uri="///"---->relative path 	and 	"////"---->absolute path
